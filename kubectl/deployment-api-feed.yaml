@@ -16,13 +16,13 @@ spec:
     spec:
       containers:
       - name: udagram-api-feed
-        image: thienphuoc1990/udagram-api-feed:v1
+        image: thienphuoc1990/udagram-api-feed:v2
         ports:
         - containerPort: 8080
         envFrom:
           - configMapRef:
               name: global
           - secretRef:
-              name: global
+              name: postgres
           - secretRef:
               name: aws
