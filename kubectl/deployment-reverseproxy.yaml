@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: thienphuoc1990/udagram-reverseproxy:v6
+        image: thienphuoc1990/reverseproxy:v1
         ports:
         - containerPort: 8080
