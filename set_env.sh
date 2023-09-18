@@ -8,4 +8,5 @@ export AWS_BUCKET=uda-mono-to-micro
 export AWS_REGION=us-east-1
 export AWS_PROFILE=default
 export JWT_SECRET=testing
+export REVERSE_PROXY_IP=localhost
 export URL=http://localhost:8100
