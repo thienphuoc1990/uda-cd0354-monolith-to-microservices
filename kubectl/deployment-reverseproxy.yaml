@@ -17,5 +17,10 @@ spec:
       containers:
       - name: reverseproxy-deployment
         image: thienphuoc1990/reverseproxy:v1
+        resources:
+          limits:
+            cpu: 500m
+          requests:
+            cpu: 250m
         ports:
         - containerPort: 8080
